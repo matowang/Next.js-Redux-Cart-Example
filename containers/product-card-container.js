@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 
-import ProductCard from '../product-card';
+import ProductCard from '../components/product-card';
 
-import { addLineItem } from '../../redux/shop/actions';
+import { addLineItem } from '../redux/shop/actions';
 
 const mapDispatchToProps = dispatch => {
     return {

@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
-import Cart from '../components/containers/cart-container';
-import ProductCard from '../components/containers/product-card-container';
+import Cart from '../containers/cart-container';
+import ProductCard from '../containers/product-card-container';
 import { importProducts } from '../lib/shop-data';
 
 const Home = ({ products }) => (
